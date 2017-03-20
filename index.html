@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/styles.less" rel="stylesheet/less" type="text/css" />
+</head>
+<body ng-controller="myCtrl as vm">
+
+    <div class="container">
+        <!--
+        TODO@interviewer
+        1) Open this file, scripts.js, and styles.less in an IDE of the interviewee's choice
+        2) Point Chrome to this page. Make sure the debugger console is open so they can see the console.log output.
+
+        TODO@interviewee
+        1) Read the instructions below. You can comment them out after you've read them.
+        2) Write your HTML in this file, your JS in scripts.js, and your CSS in styles.less
+        -->
+        
+        <p>We have created an API that simulates searching for a stock, adding it to a portfolio, and streaming live (fake) price updates.</p>
+
+        <p>Create a UI that allows a user to</p>
+        <ol>
+            <li>
+                <strong>Search</strong><br>
+                Search for a stock by company name
+            </li>
+            <li>
+                <strong>Results</strong><br>
+                Show the results as a table. <br>
+                Click on a result to add it to the "portfolio"
+            </li>
+            <li>
+                <strong>Portfolio</strong><br>
+                Show the portfolio as a table displaying stock symbol, company name, currency, and price. <br>
+                Live price updates should update the portfolio table
+            </li>
+        </ol>
+
+        <p>
+            Solve this in the way you feel is best. <br>
+            You can use/add/download any libraries you like. <br>
+            If you get stumped or don't understand something, come and ask us. <br>
+        </p>
+
+        <p>
+            You have 1 hour. <br>
+            If you solve the problem early, add additional features that will make the app more user-friendly.
+        </p>
+
+        <p>See console for some useful output</p>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>    
+    <script src="bower_components/angular/angular.min.js"></script>    
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>    
+    <script src="bower_components/less/dist/less.min.js"></script>    
+
+    <script src="assets/stock-service.js"></script>    
+    <script src="assets/scripts.js"></script>
+</body>
+</html>

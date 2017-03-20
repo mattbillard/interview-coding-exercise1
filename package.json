@@ -1,0 +1,16 @@
+{
+  "name": "interview-coding-exercise",
+  "version": "1.0.0",
+  "description": " ",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [],
+  "author": "Matt Billard",
+  "license": "MIT"
+}
